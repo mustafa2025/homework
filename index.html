@@ -1,13 +1,147 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap Template</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6d530598a3.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div class="container">
+      <header class="row">
+        <div class="col">
+          <h1>Moqups</h1>
+        </div>
+        <div class="col text-end">
+          <ul>
+            <li class="m-2">Speaker</li>
+            <li class="m-2">Ticket</li>
+            <li class="m-2">Venue</li>
+          </ul>
+        </div>
+      </header>
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Clear Statement about Your Event</h1>
+        <p class="lead">Secondary header providing additional information</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button"
+          >GET THE TICKET</a
+        >
+      </div>
+      <div class="row mt-4 text-center">
+        <h1>Speakers</h1>
+        <p>
+          Write a few lines about the event speakers to highlight their
+          expertise in the field.
+        </p>
+        <div class="col-sm-3 w-25">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Ruby Jennings</h5>
+              <p class="card-text">
+                Product Manager at Moqups. Runner, parent and coffee lover.
+              </p>
+              <p>@username</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 w-25">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Leon Hanson</h5>
+              <p class="card-text">
+                Sales Manager at Moqups. Runner, parent and coffee lover.
+              </p>
+              <p>@username</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Meghan Stone</h5>
+              <p class="card-text">
+                Marketing Specialist at Moqups. Runner, parent and coffee lover.
+              </p>
+              <p>@username</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 w-25">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Willie Perkins</h5>
+              <p class="card-text">
+                UX Engineer at Moqups. Runner, parent and coffee lover.
+              </p>
+              <p>@username</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 text-center">
+        <h1>GET YOUR TICKET TODAY</h1>
+        <p>
+          Each ticket includes: <b>20</b> speakers, <b>1000</b> participants,
+          <b>15</b> sessions, <b>5</b> keynotes.
+        </p>
+        <div class="text-center">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >BUY TICKET $149</a
+          >
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col text-left">
+          <h1>The Venue</h1>
+          <p style="width: 280px">
+            Our event will be held at the
+            <b
+              >Main Office headquarters at Provost & East Building 145 City
+              Road, London.</b
+            >
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.225592083686!2d-0.09051338477074812!3d51.52742201706088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca677677bd1%3A0xfe6025085816a202!2s145%20City%20Rd%2C%20London%20EC1V%201AW%2C%20UK!5e0!3m2!1sen!2sus!4v1665078053632!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="col">
+          <img src="london.jpg" width="600" height="600" alt="pic of london" />
+        </div>
+      </div>
+      <footer class="row mt-4">
+        <div class="col d-inline">
+          <i class="fa-brands fa-twitter"></i
+          ><i class="fa-brands fa-facebook"></i
+          ><i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="col d-inline">
+          <p class="text-end">
+            <i class="fa-regular fa-copyright"></i> 2019 moqups
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
